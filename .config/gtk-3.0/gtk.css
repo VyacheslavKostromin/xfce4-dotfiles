@@ -1,0 +1,93 @@
+.panel {
+  transition: 150ms ease-in-out;
+}
+
+.panel button {
+  border-radius: 999px;
+  background-color: #242424;
+  padding: 0px 6px;
+  margin: 6px;
+  transition: 150ms ease-in-out;
+}
+
+.panel button:hover {
+  background-color: #303030;
+  transition: 150ms ease-in-out;
+}
+
+.panel button:checked {
+  background-color: #3c3c3c;
+  transition: 150ms ease-in-out;
+}
+
+
+#pager-1 grid {
+  background-color: #242424;
+  border-radius: 999px;
+  margin: 6px;
+  padding: 0px 4px;
+}
+
+#pager-1 button {
+  margin: 7px;
+  padding: 0px;
+  background-color: #3c3c3c;
+}
+
+#pager-1 button:checked {
+  color: #000000;
+  background-color: #78aeed;
+}
+
+#pager-1 button:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+#pager-1 button:hover:checked {
+  color: #000000;
+  background-color: #a5c9f3;
+}
+
+#actions-button {
+ color: #ff7b63;
+ font-size: 18px;
+ padding: 1px 1px;
+}
+
+#pulseaudio-7 button {
+ padding: 0px 6px;
+}
+
+#pulseaudio-7 button image.recording-indicator {
+ color: #f8e45c;
+ padding: 0px 10px 0px 0px;
+}
+
+#appmenu-6 scrolledwindow>viewport>menubar>menuitem {
+ transition: 150ms ease-in-out;
+ border-radius: 999px;
+ margin: 6px;
+ background-color: #242424;
+ padding: 0px 12px;
+}
+
+#appmenu-6 scrolledwindow>viewport>menubar>menuitem:hover {
+ transition: 150ms ease-in-out;
+ background-color: #3c3c3c;
+}
+
+#systray-4 box>button {
+ transition: 150ms ease-in-out;
+ padding: 0px 15px;
+ margin: 6px
+}
+
+#xkb-5 button {
+ font-size: 10px;
+}
+
+calendar {
+ border: 0px;
+ border-radius: 12px;
+}
+

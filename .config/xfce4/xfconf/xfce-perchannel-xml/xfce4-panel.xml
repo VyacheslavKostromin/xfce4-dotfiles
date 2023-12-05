@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <value type="int" value="3"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=216;y=21"/>
+      <property name="size" type="uint" value="40"/>
+      <property name="length" type="double" value="43.45703125"/>
+      <property name="length-adjust" type="bool" value="false"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="12"/>
+        <value type="int" value="14"/>
+        <value type="int" value="6"/>
+      </property>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="background-image" type="string" value="file:///home/beb/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/wallpapers/cfe14jehi3991_waifu2x_art_noise1_tta_1.png"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=9;x=507;y=20"/>
+      <property name="size" type="uint" value="40"/>
+      <property name="length" type="double" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+    </property>
+    <property name="panel-3" type="empty">
+      <property name="position" type="string" value="p=2;x=887;y=20"/>
+      <property name="size" type="uint" value="40"/>
+      <property name="length" type="double" value="43.45703125"/>
+      <property name="length-adjust" type="bool" value="false"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="11"/>
+        <value type="int" value="7"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="position-locked" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="wrap-workspaces" type="bool" value="true"/>
+    </property>
+    <property name="plugin-11" type="string" value="notification-plugin"/>
+    <property name="plugin-2" type="string" value="actions">
+      <property name="button-title" type="uint" value="3"/>
+      <property name="custom-title" type="string" value="󰤆"/>
+      <property name="items" type="array">
+        <value type="string" value="+lock-screen"/>
+        <value type="string" value="+switch-user"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+shutdown"/>
+        <value type="string" value="+restart"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="popup-at-pointer" type="bool" value="false"/>
+        <property name="paste-on-activate" type="uint" value="2"/>
+      </property>
+      <property name="settings" type="empty">
+        <property name="show-qr-code" type="bool" value="false"/>
+        <property name="enable-actions" type="bool" value="false"/>
+        <property name="add-primary-clipboard" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-5" type="string" value="xkb">
+      <property name="display-name" type="uint" value="1"/>
+      <property name="display-type" type="uint" value="2"/>
+      <property name="display-tooltip-icon" type="bool" value="false"/>
+      <property name="caps-lock-indicator" type="bool" value="true"/>
+      <property name="group-policy" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="applicationsmenu">
+      <property name="button-icon" type="string" value="void-logo-notext"/>
+      <property name="button-title" type="string" value="Меню"/>
+      <property name="show-menu-icons" type="bool" value="false"/>
+      <property name="show-button-title" type="bool" value="true"/>
+    </property>
+    <property name="plugin-14" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-font" type="string" value="Cantarell Bold 9"/>
+    </property>
+    <property name="plugin-7" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value="Веб-браузер Firefox"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-4" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="discord"/>
+      </property>
+      <property name="hide-new-items" type="bool" value="true"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="icon-size" type="int" value="16"/>
+      <property name="hidden-legacy-items" type="array">
+        <value type="string" value="discord"/>
+      </property>
+    </property>
+    <property name="plugin-6" type="string" value="appmenu">
+      <property name="plugins" type="empty">
+        <property name="plugin-6" type="empty">
+          <property name="compact-mode" type="bool" value="true"/>
+          <property name="bold-application-name" type="bool" value="true"/>
+          <property name="expand" type="bool" value="false"/>
+        </property>
+      </property>
+    </property>
+  </property>
+</channel>
